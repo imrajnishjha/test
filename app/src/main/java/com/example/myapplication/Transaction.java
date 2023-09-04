@@ -33,7 +33,7 @@ public class Transaction extends AppCompatActivity {
 
                 for (DataSnapshot suggestionSnapshot : dataSnapshot.getChildren()){
 
-                    String suggestion = suggestionSnapshot.child("name").getValue(String.class);
+                      String suggestion = suggestionSnapshot.child("name").getValue(String.class);
 
                     autoComplete.add(suggestion);
                 }
