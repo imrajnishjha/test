@@ -51,6 +51,7 @@ public class Login extends AppCompatActivity {
 
 
         loginBtn.setOnClickListener(view -> loginUser(progressbar));
+        //loginNewUserTv.setOnClickListener(view -> startActivity(new Intent(this,Reg.java)));
     }
 
     private void loginUser(RelativeLayout progressbar){
