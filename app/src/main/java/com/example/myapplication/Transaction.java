@@ -20,7 +20,7 @@ public class Transaction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaction);
 
-        memberSearchTextView = findViewById(R.id.member_search_autocomplete);
+        memberSearchTextView =   findViewById(R.id.member_search_autocomplete);
 
         DatabaseReference database;
         database = FirebaseDatabase.getInstance().getReference().child("Books");
